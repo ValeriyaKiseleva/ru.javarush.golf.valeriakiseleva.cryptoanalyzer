@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class BrutForce {
     private static String inputFileName;
-    private static final String frequentLetters = "оеаинтсрвлкм";
+    private static final String frequentLetters = " оеаинтсрвлкм";
 
     public static void startBrutForce() {
         System.out.println("------------------------------");
