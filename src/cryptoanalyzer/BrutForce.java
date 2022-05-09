@@ -119,6 +119,9 @@ public class BrutForce {
                     if (charArrayForAnalyze[i] == ',') {
                         if (i != charArrayForAnalyze.length - 1 && charArrayForAnalyze[i + 1] != ' ') {
                             errors++;
+                            if (errors > 40) {
+                                return false;
+                            }    
                         }
                     }
                 }
